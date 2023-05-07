@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    position: relative;
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+}
+/* 1 rem = 16px */
+li{
+    margin-left: 1rem;
+    margin-right: 1rem; 
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: grey;
+    display: block;
+    margin: auto;  /* sa margin auto se stavi da tranzicija ide od sredine pa prema krajevima, bez ovoga bi islo od pocetka (levo) do kraja (desno) */
+    transition: 0.5s;
+    border-radius: 100px;
+}
+
+a:hover::after{
+    width: 100%;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
+
+.x-icon, .bars-icon{
+    display: none;
+}
+
+@media(max-width: 900px){
+    .nav-ul{
+        display: block;
+        padding: 30px;
+    }
+    li{
+        margin-top: 25px;
+    }
+    .nav-links{
+        /* kad je position: fixed, ne mora cak ni overflow-x: hidden na main-container, nestane skrol i bez toga */
+        position: fixed; /* FIXED SAM DODAO UMESTO ABSOLUTE, nakon ovog nema scroll po x osi, moze i da bude absolute i da je roditelj pozicioniran na primer relative ali pojavi se neki skrol na y osi onda nzm sto*/
+        background-color: #dadada;
+        height: 100vh; /* da zauzme view height, da je 100% bilo bi 100% od parent elementa*/
+        width: 200px;
+        top: 0;
+        right: -200px; /* da se ne vidi, toliki mu je i width, pa ga skloni */
+        text-align: left;
+        z-index: 2; /* da prekrije ostale komponente kada treba da se pojavi*/
+        transition: 1s;
+        /* border-left: 2px solid #625731; */
+    }
+    .x-icon, .bars-icon{
+        display: block; /* da se pojave, jer su none za velike ekrane*/
+        color: black;
+        margin: 10px;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    .x-icon{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
