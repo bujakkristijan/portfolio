@@ -27,12 +27,12 @@ const ProfileComponent = () => {
                 <div className='btn-projects-container'>
                     <button className='btn-projects'>My projects</button>
                 </div>
-                <div className='socials-container'>
+            </div>
+            <div className='socials-container'>
                     <FontAwesomeIcon icon={faGithub}  onClick={navigateToGithub}/>
                     <FontAwesomeIcon icon={faLinkedinIn} />
-                </div>
             </div>
-        </div>
+         </div>
         
     </div>
   )
