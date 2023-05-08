@@ -8,6 +8,7 @@ import NavbarComponent from './components/navbar/NavbarComponent';
 import ProfileComponent from './components/profile/ProfileComponent';
 import AboutComponent from './components/about/AboutComponent';
 import ExperienceComponent from './components/experience/ExperienceComponent';
+import ProjectsComponent from './components/projects/ProjectsComponent';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ProfileComponent/>
       <AboutComponent/>
       <ExperienceComponent/>
+      <ProjectsComponent/>
    </div>
     
     </>
