@@ -94,8 +94,8 @@
 
 .btn-projects:hover{
     cursor: pointer;
-    background-color: rgb(65, 65, 65);
-    border: 2px solid rgb(65, 65, 65);
+    background-color: grey;
+    border: 2px solid grey;
     transition: 0.2s ease-in;
 }
 

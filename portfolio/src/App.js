@@ -6,6 +6,8 @@ import { faX, faBars  } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import NavbarComponent from './components/navbar/NavbarComponent';
 import ProfileComponent from './components/profile/ProfileComponent';
+import AboutComponent from './components/about/AboutComponent';
+import ExperienceComponent from './components/experience/ExperienceComponent';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       {/* <AboutComponent/> */}
       <NavbarComponent/>
       <ProfileComponent/>
+      <AboutComponent/>
+      <ExperienceComponent/>
    </div>
     
     </>

@@ -1,0 +1,75 @@
+.about-main-container{
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.about-title{
+    text-align: center;
+    font-size: 34px;
+    /* margin-top: 50px; */
+}
+
+.about-image-container{
+    height: 350px;
+    width: 350px;
+    /* width: 50%; */
+
+}
+
+.about-image{
+    /* prvo se na kontejner stavi height i width pa onda se stavi ovde da uzima maksimum od njega */
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    border-radius: 40px;
+}
+
+.about-container{
+    display: flex;
+    gap: 36px;
+    justify-content: space-around;
+    /* height: 80%; */
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 100px;
+    
+}
+
+.details-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.detail-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.detail-text{
+    font-size: 16px;
+}
+
+.detail-container{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1.5rem;
+    flex: 1; /* da budu jednaki oba !! */
+    text-align: center;
+}
+
+.about-details-container{
+    /* justify-content: center; */
+    width: 65%;
+    
+}
+
+.fa-icon{
+    font-size: 30px;
+}
+
+.text-details-container{
+    margin-top: 20px;
+    font-size: 14px;
+}
