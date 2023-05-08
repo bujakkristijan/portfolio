@@ -29,8 +29,8 @@ const ProfileComponent = () => {
                 </div>
             </div>
             <div className='socials-container'>
-                    <FontAwesomeIcon icon={faGithub}  onClick={navigateToGithub}/>
-                    <FontAwesomeIcon icon={faLinkedinIn} />
+                    <FontAwesomeIcon className='github-icon' icon={faGithub}  onClick={navigateToGithub}/>
+                    <FontAwesomeIcon className='linkedin-icon' icon={faLinkedinIn} />
             </div>
          </div>
         

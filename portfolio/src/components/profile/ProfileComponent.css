@@ -1,8 +1,8 @@
 .profile-container{
     display: flex;
-    gap: 5rem;
+    gap: 5rem; /* slika i tekst razmak */
     justify-content: center;
-    height: 80vh;
+    height: 85vh;
     align-items: center;
     text-align: center;
 }
@@ -23,10 +23,11 @@
 }
 
 .text-p1{
-    font-size: 20px;
+    font-size: 24px;
 }
 .title{
-    font-size: 30px;
+    font-size: 34px;
+    margin-top: 20px;
 }
 
 .text-p2{
@@ -63,4 +64,52 @@
 .button-container{
     display: flex;
     justify-content: space-around;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.btn-download-cv, .btn-projects{
+    color: rgb(21, 21, 21);
+    background-color: white;
+    /*gore desno dole levo */
+    padding: 10px 15px 10px 15px; 
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid rgb(21, 21, 21);
+    width: 130px;
+}
+
+.btn-download-cv:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.2s ease-in;
+}
+
+
+.btn-projects{
+    color: white;
+    background-color: rgb(21, 21, 21);;
+}
+
+.btn-projects:hover{
+    cursor: pointer;
+    background-color: rgb(65, 65, 65);
+    border: 2px solid rgb(65, 65, 65);
+    transition: 0.2s ease-in;
+}
+
+.socials-container{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* bez display flex ne radi */
+}
+
+.github-icon, .linkedin-icon{
+    font-size: 40px;
+}
+
+.github-icon:hover, .linkedin-icon:hover{
+    cursor: pointer;
 }
