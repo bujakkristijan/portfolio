@@ -4,6 +4,11 @@
     /* font-weight: 600 !important; */ /* h1 je vec boldovan */
 }
 
+.experience-small-title{
+    font-size: 16px;
+    text-align: center;
+}
+
 .experience-main-container{
     display: flex;
     flex-direction: column;

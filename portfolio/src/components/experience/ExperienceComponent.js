@@ -7,10 +7,8 @@ import './ExperienceComponent.css'
 const ExperienceComponent = () => {
   return (
     <div className='experience-main-container'>
-        <h1 className='experience-title'>
-            Experience
-        </h1>
-        
+        <p className='experience-small-title'>Explore My</p>
+        <h1 className='experience-title'> Experience</h1> 
             <div className='experience-details-container'>
                 <div className='details-containers'>
                     <h2 className='experience-sub-title'>Frontend development</h2>

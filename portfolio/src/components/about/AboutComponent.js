@@ -7,6 +7,7 @@ import { faAward, faBriefcase  } from '@fortawesome/free-solid-svg-icons'
 const AboutComponent = () => {
   return (
     <div className='about-main-container'>
+        <p className='about-small-title'>Get To Know More</p>
         <h1 className='about-title'>About me</h1>
         <div className='about-container'>
             <div className='about-image-container'>
