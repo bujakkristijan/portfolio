@@ -58,7 +58,7 @@ const ProjectsComponent = () => {
                         Topics Application
                     </div>
                     <div className='project-description'>
-                        Entry task for junior position in one company. Loading topics from json file then manipulating font size and color depending on topic metadata. Focus on JavaScript and state managment in React.
+                        Entry task for junior position in one company. Loading topics from json file then manipulating topic font size and color depending on topic metadata. Focus on JavaScript and state managment in React.
                     </div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project'>
