@@ -9,6 +9,7 @@ import ProfileComponent from './components/profile/ProfileComponent';
 import AboutComponent from './components/about/AboutComponent';
 import ExperienceComponent from './components/experience/ExperienceComponent';
 import ProjectsComponent from './components/projects/ProjectsComponent';
+import ContactComponent from './components/contact/ContactComponent';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <AboutComponent/>
       <ExperienceComponent/>
       <ProjectsComponent/>
+      <ContactComponent/>
    </div>
     
     </>

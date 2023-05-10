@@ -1,0 +1,102 @@
+.contact-small-title{
+    font-size: 16px;
+    text-align: center;
+}
+
+.contact-big-title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact-main-container{
+    padding-top: 120px; /* moze i margina na iznad komponentu sto je, ili padding da nema belu boju za pozadinu */
+    background-color: rgb(242, 241, 241);
+}
+
+.contact-container{
+    margin-top: 30px;
+    /* text-align: center; */
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(53, 53, 53);
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.contact-sub-container{
+    text-align: center;
+}
+
+label{
+    display: inline-block; /* sa inline-block moze da se setuje width, po defaultu je inline pa width ne moze da se setuje */
+    /* width: 80px; */
+    padding-left: 30px; /* moze i na bolji nacin da se uradi sigurno */
+}
+
+input{
+    padding: 8px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 8px;
+    border: 2px solid rgb(53, 53, 53);
+    background-color: rgb(242, 241, 241);
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.name-container{
+    display: flex;
+    /* justify-content: space-around;  */
+}
+
+.first-name-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.last-name-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.email-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-email{
+    width: 90%; /* nzm da li je bas tacno, ali dobro ispadne, mada generalno treba na bolji nacin */
+}
+
+.label-email{
+    margin-top: 8px;
+    text-align: left;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.textarea-message{
+    width: 90%;
+    margin: auto;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 8px;
+    border: 2px solid rgb(53, 53, 53);
+    background-color: rgb(242, 241, 241);
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.label-message{
+    text-align: left;
+}
