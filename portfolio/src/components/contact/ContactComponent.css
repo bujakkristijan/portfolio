@@ -100,3 +100,31 @@ input{
 .label-message{
     text-align: left;
 }
+
+.contact-text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-email-container{
+    margin-top: 20px; /* samo gore treba, dole ne */
+}
+
+.btn-send-email{
+    color: black;
+    background-color: rgb(242, 241, 241);
+    /*gore desno dole levo */
+    padding: 10px 15px 10px 15px; 
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid rgb(21, 21, 21);
+    width: 160px;
+    margin: auto; /* da centrira dugme */
+    display: flex; 
+    /* margin-bottom: 30px; */
+}
+
+.icon-email{
+    margin: auto;
+}
