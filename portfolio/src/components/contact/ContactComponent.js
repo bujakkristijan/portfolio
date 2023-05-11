@@ -14,22 +14,28 @@ const ContactComponent = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.send('service_7pzrivs', 'template_4a0ren5', {
-          first_name: firstName,
-          last_name: lastName,
-          email: email,
-          message: message
-        }, 'hwJzqXuIXuVVkvdSp')
-          .then((result) => {
-            console.log(result.text);
-          }, (error) => {
-            console.log(error.text);
-          });
-        setFirstName('');
-        setLastName('');
-        setEmail('');
-        setMessage('');
-      };
+        if(firstName.trim() === '' || lastName.trim() === ''
+            || email.trim() === '' || message.trim() === ''){
+                alert("Please insert all fields! ")
+            }
+        else{
+            emailjs.send('service_7pzrivs', 'template_4a0ren5', {
+                first_name: firstName,
+                last_name: lastName,
+                email: email,
+                message: message
+              }, 'hwJzqXuIXuVVkvdSp')
+                .then((result) => {
+                  console.log(result.text);
+                }, (error) => {
+                  console.log(error.text);
+                });
+              setFirstName('');
+              setLastName('');
+              setEmail('');
+              setMessage('');
+        }
+      }
 
   return (
     <div className='contact-main-container'>
@@ -74,7 +80,7 @@ const ContactComponent = () => {
                     <textarea className='textarea-message' 
                         rows = '8' placeholder='Insert your message'
                         value={message}
-                        onChange={(e) => setMessage(e.target.value)}
+                        onChange={(e) => setMessage(e.target.value)} 
                         >
                     </textarea>
                 </div>
