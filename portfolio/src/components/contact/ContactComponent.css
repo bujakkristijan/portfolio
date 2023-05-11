@@ -12,6 +12,7 @@
 .contact-main-container{
     padding-top: 120px; /* moze i margina na iznad komponentu sto je, ili padding da nema belu boju za pozadinu */
     background-color: rgb(242, 241, 241);
+    padding-bottom: 120px;
 }
 
 .contact-container{
