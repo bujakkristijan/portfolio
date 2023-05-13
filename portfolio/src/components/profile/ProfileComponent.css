@@ -115,3 +115,21 @@
 .github-icon:hover, .linkedin-icon:hover{
     cursor: pointer;
 }
+
+
+/* mobile apps */
+
+@media(max-width: 900px){
+    .profile-container{
+        display: flex;
+        flex-direction: column-reverse; /* da prikaze prvo tekst pa sliku ide reverse */
+        /* padding-top: 20vh; */
+    }
+}
+
+/* za iphone se */
+@media(max-width: 376px){
+    .profile-container{
+        padding-top: 30vh;
+    }
+}

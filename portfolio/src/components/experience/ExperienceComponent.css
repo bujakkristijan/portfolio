@@ -75,3 +75,12 @@
 .article-details-container{
     margin-left: 8px;
 }
+
+/* mobile-apps */
+
+@media(max-width: 900px){
+    .experience-details-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
