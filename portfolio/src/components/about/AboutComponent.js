@@ -16,14 +16,14 @@ const AboutComponent = () => {
             <div className='about-details-container'>
                 <div className='details-container'>
                     <div className='detail-container'>
-                        <FontAwesomeIcon className='fa-icon' icon={faAward} />
+                        <FontAwesomeIcon className='fa-icon' icon={faBriefcase} />
                         <div className='detail-title'>Experience</div>
                         <div className='detail-text'>Student internship at Simple Task</div>
                         <div className='detail-text'>Angular frontend developer</div>
                         <div className='detail-text'>April 2022 </div>
                     </div>
                     <div className='detail-container'>
-                        <FontAwesomeIcon className='fa-icon' icon={faBriefcase} />
+                        <FontAwesomeIcon className='fa-icon' icon={faAward} />
                         <div className='detail-title'>Education</div>
                         <div className='detail-text'>Electrical and Computer Engineer</div>
                         <div className='detail-text'>Technical school Kikinda</div>
