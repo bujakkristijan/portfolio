@@ -14,7 +14,7 @@
     flex-direction: column;
     background-color: rgb(242, 241, 241);
     /* margin-top: 60px; */ /* da ne bi bila bela pozadina stavljam padding */
-    padding-top: 80px;
+    padding-top: 120px; /* stavljeno 120px umesto 80px jer kada stisnem na link i kada skroluje do komponente, ne pocne od pocetka, odnosno ne vidi se title, verovatno zato sto je navbar sticky i zauzima taj prostor, pa sam resio ovako, mada postoji i bolje resenje bez veceg padding verovatno */
     
 }
 
@@ -26,7 +26,7 @@
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 60px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
     
 }
 

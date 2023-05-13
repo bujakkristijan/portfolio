@@ -6,7 +6,7 @@ import './ExperienceComponent.css'
 
 const ExperienceComponent = () => {
   return (
-    <div className='experience-main-container'>
+    <div id='experience' className='experience-main-container'>
         <p className='experience-small-title'>Explore My</p>
         <h1 className='experience-title'> Experience</h1> 
             <div className='experience-details-container'>

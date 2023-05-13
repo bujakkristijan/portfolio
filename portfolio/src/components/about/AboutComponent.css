@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center; */
     background-color: rgb(242, 241, 241);
+    /* padding-bottom: 100px; */
+    padding-top: 120px;
 }
 
 .about-title{
@@ -59,6 +61,15 @@
 .detail-text{
     font-size: 16px;
 }
+
+/*
+
+Chat gpt odgovor, kod flex items-a, svi prate visinu najveceg ukoliko nije zadata
+
+Since you're using display: flex on the parent container .details-container, the flex items (.detail-container) will stretch to match the height of the tallest item by default. This behavior is known as equal height columns in a flex container.
+
+If one element has more content and extends its height, the other elements will also stretch to match the height of the tallest element within the flex container. This ensures that the layout remains consistent and aligned.
+*/
 
 .detail-container{
     border: 2px solid black;

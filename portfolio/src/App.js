@@ -12,21 +12,18 @@ import ProjectsComponent from './components/projects/ProjectsComponent';
 import ContactComponent from './components/contact/ContactComponent';
 
 function App() {
+
   return (
     <>
-    
    <div className='main-container'>
-      {/* <AboutComponent/> */}
       <NavbarComponent/>
       <ProfileComponent/>
-      <AboutComponent/>
       <ExperienceComponent/>
+      <AboutComponent/>
       <ProjectsComponent/>
-      <ContactComponent/>
-   </div>
-    
+      <ContactComponent/>  
+   </div>  
     </>
-    
   );
 }
 

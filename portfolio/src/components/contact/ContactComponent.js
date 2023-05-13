@@ -38,7 +38,7 @@ const ContactComponent = () => {
       }
 
   return (
-    <div className='contact-main-container'>
+    <div id='contact' className='contact-main-container'>
         <p className='contact-small-title'>Get In Touch</p>
         <div className='contact-big-title'>Contact Me</div>
         <div className='contact-text'>Be free to write me a message if you want to hire me</div>

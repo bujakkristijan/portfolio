@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ProjectsComponent = () => {
   return (
-    <div className='projects-main-container'>
+    <div id='projects' className='projects-main-container'>
         <p className='projects-small-title'>Browse My Recent</p>
         <div className='projects-big-title'>Projects</div>
         <div className='projects-container'>

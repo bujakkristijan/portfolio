@@ -10,7 +10,7 @@ const ProfileComponent = () => {
     }
 
   return (
-    <div className='profile-container'>
+    <div id='profile' className='profile-container'>
         <div className='profile-image-container'>
             <img className='profile-image' src={require('../../images/profile3bw.png')} alt=''></img>
         </div>

@@ -8,6 +8,12 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 // za Link mora i Browser Router u app componenti da se wrapuje okolo
 const NavbarComponent = () => {
 
+  
+    // const scrollToComponent = (id) => {
+    //     const component = document.getElementById(id);
+    //     component.scrollIntoView({ behavior: 'smooth' });
+    // }
+
     const hideMenu = () =>{
         const navLinks = document.getElementById("navLinks");
         navLinks.style.right = "-200px";
@@ -27,8 +33,10 @@ const NavbarComponent = () => {
         <div className='nav-links' id="navLinks">
             <FontAwesomeIcon className='x-icon' icon={faX} onClick={hideMenu}/>
             <ul className='nav-ul'>
-                <li><a href='#about' onClick={hideMenu}>About</a></li>
+                {/* <li><a href='#about' onClick = {() => scrollToComponent('about')}>About</a></li> */}
+                <li><a href='#about'>About</a></li>
                 <li><a href='#experience'>Experience</a></li>
+                {/* <li><a href='#projects' onClick = {() => scrollToComponent('projects')}>Projects</a></li> */}
                 <li><a href='#projects'>Projects</a></li>
                 <li><a href='#contact'>Contact</a></li>
             </ul>
