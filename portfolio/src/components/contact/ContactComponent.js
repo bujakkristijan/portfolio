@@ -56,8 +56,8 @@ const ContactComponent = () => {
                             </input>
                     </div>
                     <div className='last-name-container'>
-                        <label className='label-name'>Last name: </label>
-                        <input className='input-name' 
+                        <label className='label-last-name'>Last name: </label>
+                        <input className='input-last-name' 
                             type='text' 
                             placeholder='Insert your last name'
                             value={lastName}

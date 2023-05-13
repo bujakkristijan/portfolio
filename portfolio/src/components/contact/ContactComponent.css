@@ -129,3 +129,33 @@ input{
 .icon-email{
     margin: auto;
 }
+
+@media(max-width: 900px){
+    .name-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-main-container{
+        /* na glavni container stavim padding a width contact-container-a na 100% */
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
+    .contact-container{
+        width: 100%;
+    }
+
+    .first-name-container{
+        width: 100%;
+    }
+
+    .last-name-container{
+        width: 100%;
+    }
+    .input-name, .input-last-name{
+        width: 90%; /*stavi se na 90% kao sto su i email i message */ 
+    }
+    .label-last-name{
+        margin-top: 8px; /* zato sto je sad u novom redu a za desktop bude u istom, pa se doda margina kao sto je i na ostalima */
+    }
+}
