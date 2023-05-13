@@ -3,6 +3,7 @@ import './ContactComponent.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope  } from '@fortawesome/free-solid-svg-icons'
 import emailjs from 'emailjs-com'
+import Swal from "sweetalert2";
 
 
 const ContactComponent = () => {
@@ -16,7 +17,7 @@ const ContactComponent = () => {
         e.preventDefault();
         if(firstName.trim() === '' || lastName.trim() === ''
             || email.trim() === '' || message.trim() === ''){
-                alert("Please insert all fields! ")
+                alertFail();
             }
         else{
             emailjs.send('service_7pzrivs', 'template_4a0ren5', {
@@ -27,6 +28,7 @@ const ContactComponent = () => {
               }, 'hwJzqXuIXuVVkvdSp')
                 .then((result) => {
                   console.log(result.text);
+                  alertSuccess();
                 }, (error) => {
                   console.log(error.text);
                 });
@@ -36,6 +38,26 @@ const ContactComponent = () => {
               setMessage('');
         }
       }
+
+      const alertSuccess = () =>{
+            Swal.fire({
+              position: 'top',
+              icon: 'success',
+              title: 'Email successfully sent!',
+              showConfirmButton: false,
+              timer: 1500
+            });
+      }
+
+      const alertFail = () =>{
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'All input fields are required!',
+          })
+      }
+
+    
 
   return (
     <div id='contact' className='contact-main-container'>

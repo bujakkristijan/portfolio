@@ -159,3 +159,8 @@ input{
         margin-top: 8px; /* zato sto je sad u novom redu a za desktop bude u istom, pa se doda margina kao sto je i na ostalima */
     }
 }
+
+/* button u swal alertu, nasao preko inspect kako se zove klasa tacno */
+.swal2-styled.swal2-confirm{
+    background-color: grey !important; /* mora important da bi pregazio default boju */
+}
