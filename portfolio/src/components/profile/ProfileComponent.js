@@ -9,6 +9,10 @@ const ProfileComponent = () => {
         window.open("https://github.com/bujakkristijan");
     }
 
+    const downloadCV = () =>{
+        window.open('/cv-file/CV.pdf'); /* mora cv u public da stoji */
+    }
+
   return (
     <div id='profile' className='profile-container'>
         <div className='profile-image-container'>
@@ -22,7 +26,7 @@ const ProfileComponent = () => {
             </div>
             <div className='button-container'>
                 <div className='btn-cv-container'>
-                    <button className='btn-download-cv'>Download CV</button>
+                    <button onClick={downloadCV} className='btn-download-cv'>Download CV</button>
                 </div>
                 <div className='btn-projects-container'>
                     <button className='btn-projects'>My projects</button>
