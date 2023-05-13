@@ -130,6 +130,13 @@
 /* za iphone se */
 @media(max-width: 376px){
     .profile-container{
-        padding-top: 30vh;
+        /* padding-top: 30vh; */
+        padding-top: 15vh;
+        height: auto;
+        /* padding-bottom: 30vh; */ /* ne moze sa padding zato sto je height setovan na 85vh */
     }
+    .profile-image-container{
+        padding: 10px;
+    }
+    /* padding: 10px; */
 }

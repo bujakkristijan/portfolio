@@ -88,3 +88,15 @@
     background-color: rgb(242, 241, 241);
     padding-top: 120px;
 }
+
+@media(max-width: 400px){
+    .project-image-container{
+        width: 260px;
+        height: 260px;
+    }
+    .project-info-container{
+        /* width: 280px; */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
