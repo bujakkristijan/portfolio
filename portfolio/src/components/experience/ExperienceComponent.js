@@ -91,9 +91,6 @@ const ExperienceComponent = () => {
                     </div>
                 </div>
             </div>
-        
-        
-        
     </div>
   )
 }

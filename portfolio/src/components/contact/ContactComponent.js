@@ -5,7 +5,6 @@ import { faEnvelope  } from '@fortawesome/free-solid-svg-icons'
 import emailjs from 'emailjs-com'
 import Swal from "sweetalert2";
 
-
 const ContactComponent = () => {
 
     const [firstName, setFirstName] = useState('');
@@ -61,8 +60,6 @@ const ContactComponent = () => {
           })
       }
 
-    
-
   return (
     <div id='contact' className='contact-main-container'>
         <p className='contact-small-title'>Get In Touch</p>
@@ -115,11 +112,9 @@ const ContactComponent = () => {
                         Send email
                         <FontAwesomeIcon className='icon-email' icon={faEnvelope} />
                     </div>  
-                    
                 </div>
             </div>
         </div>
-
     </div>
   )
 }

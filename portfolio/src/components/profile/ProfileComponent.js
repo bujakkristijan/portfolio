@@ -44,8 +44,7 @@ const ProfileComponent = () => {
                     <FontAwesomeIcon className='github-icon' icon={faGithub}  onClick={navigateToGithub}/>
                     <FontAwesomeIcon className='linkedin-icon' icon={faLinkedinIn} onClick={navigateToLinkedin}/>
             </div>
-         </div>
-        
+         </div>  
     </div>
   )
 }

@@ -2,12 +2,9 @@ import React from 'react';
 import './NavbarComponent.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faX, faBars  } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
 
 // za Link mora i Browser Router u app componenti da se wrapuje okolo
 const NavbarComponent = () => {
-
   
     // const scrollToComponent = (id) => {
     //     const component = document.getElementById(id);

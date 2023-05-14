@@ -32,8 +32,7 @@
     border: 2px solid rgb(53, 53, 53) ;
     border-radius: 30px;
     background-color: white;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
-    
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);   
 }
 
 .project-title{

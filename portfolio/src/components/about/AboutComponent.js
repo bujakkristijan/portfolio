@@ -3,7 +3,6 @@ import './AboutComponent.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAward, faBriefcase  } from '@fortawesome/free-solid-svg-icons'
 
-
 const AboutComponent = () => {
   return (
     <div id='about' className='about-main-container'>

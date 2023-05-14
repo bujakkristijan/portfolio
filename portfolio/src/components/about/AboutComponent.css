@@ -24,7 +24,6 @@
     width: 350px;
     /* width: 50%; */
     /* box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5); */
-
 }
 
 .about-image{
@@ -44,13 +43,11 @@
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 60px;
-    
 }
 
 .details-container{
     display: flex;
     gap: 2rem;
-    
 }
 
 .detail-title{
@@ -83,8 +80,7 @@ If one element has more content and extends its height, the other elements will 
 
 .about-details-container{
     /* justify-content: center; */
-    width: 65%;
-    
+    width: 65%;  
 }
 
 .fa-icon{
@@ -103,18 +99,15 @@ If one element has more content and extends its height, the other elements will 
         display: flex;
         flex-direction: column;
     }
-
     .about-details-container{
         /* display: flex;
         flex-direction: column; */
         width: 100%;
     }
-
     .details-container{
         display: flex;
         flex-direction: column;
     }
-
     .about-image-container{
         width: 100%;
         height: 100%;
