@@ -10,6 +10,7 @@ import AboutComponent from './components/about/AboutComponent';
 import ExperienceComponent from './components/experience/ExperienceComponent';
 import ProjectsComponent from './components/projects/ProjectsComponent';
 import ContactComponent from './components/contact/ContactComponent';
+import FooterComponent from './components/footer/FooterComponent';
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
       <ExperienceComponent/>
       <AboutComponent/>
       <ProjectsComponent/>
-      <ContactComponent/>  
+      <ContactComponent/> 
+      <FooterComponent/> 
    </div>  
     </>
   );

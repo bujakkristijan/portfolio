@@ -9,6 +9,10 @@ const ProfileComponent = () => {
         window.open("https://github.com/bujakkristijan");
     }
 
+    const navigateToLinkedin = () =>{
+        window.open("https://rs.linkedin.com/in/kristijan-bujak-75a621122?trk=public_profile_browsemap");
+    }
+
     const downloadCV = () =>{
         window.open('/cv-file/CV.pdf'); /* mora cv u public da stoji */
     }
@@ -38,7 +42,7 @@ const ProfileComponent = () => {
             </div>
             <div className='socials-container'>
                     <FontAwesomeIcon className='github-icon' icon={faGithub}  onClick={navigateToGithub}/>
-                    <FontAwesomeIcon className='linkedin-icon' icon={faLinkedinIn}/>
+                    <FontAwesomeIcon className='linkedin-icon' icon={faLinkedinIn} onClick={navigateToLinkedin}/>
             </div>
          </div>
         
