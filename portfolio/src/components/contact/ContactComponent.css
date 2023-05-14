@@ -112,6 +112,10 @@ input{
     margin-top: 20px; /* samo gore treba, dole ne */
 }
 
+.button-email-container:hover{
+    cursor: pointer;
+}
+
 .btn-send-email{
     color: black;
     background-color: rgb(242, 241, 241);

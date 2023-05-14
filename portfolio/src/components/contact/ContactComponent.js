@@ -28,14 +28,18 @@ const ContactComponent = () => {
               }, 'hwJzqXuIXuVVkvdSp')
                 .then((result) => {
                   console.log(result.text);
+                  //nakon uspesnog slanja mail-a,prikazuje se alert koji traje 1500ms,
+                  //a takodje se postavlja i timer u kom se posle 1500ms setuju prazna polja u inpute, pa ce se inputi isprazniti odmah nakon alerta
                   alertSuccess();
+                  setTimeout(() => {
+                        setFirstName('');
+                        setLastName('');
+                        setEmail('');
+                        setMessage('');
+                  }, 1500);
                 }, (error) => {
                   console.log(error.text);
                 });
-              setFirstName('');
-              setLastName('');
-              setEmail('');
-              setMessage('');
         }
       }
 
