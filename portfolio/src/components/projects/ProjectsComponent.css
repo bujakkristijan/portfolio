@@ -68,6 +68,10 @@
     margin-bottom: 30px;
 }
 
+.btn-project:hover{
+    cursor: pointer;
+}
+
 .btn-github-icon{
     font-size: 24px;
     margin: auto; /* radi dobro samo sa display flex !!! jer flex ima po defaultu width */

@@ -13,6 +13,10 @@ const ProfileComponent = () => {
         window.open('/cv-file/CV.pdf'); /* mora cv u public da stoji */
     }
 
+    const scrollToProjects = () => {
+        window.location.href = '#projects';
+      };
+
   return (
     <div id='profile' className='profile-container'>
         <div className='profile-image-container'>
@@ -29,12 +33,12 @@ const ProfileComponent = () => {
                     <button onClick={downloadCV} className='btn-download-cv'>Download CV</button>
                 </div>
                 <div className='btn-projects-container'>
-                    <button className='btn-projects'>My projects</button>
+                    <button className='btn-projects' onClick={scrollToProjects}>My projects</button>
                 </div>
             </div>
             <div className='socials-container'>
                     <FontAwesomeIcon className='github-icon' icon={faGithub}  onClick={navigateToGithub}/>
-                    <FontAwesomeIcon className='linkedin-icon' icon={faLinkedinIn} />
+                    <FontAwesomeIcon className='linkedin-icon' icon={faLinkedinIn}/>
             </div>
          </div>
         
