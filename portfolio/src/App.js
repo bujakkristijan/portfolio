@@ -14,6 +14,8 @@ import FooterComponent from './components/footer/FooterComponent';
 
 function App() {
 
+  //npm run deploy i pushovao na main, pa se vide izmene na github pages, nzm do cega je tacno. 
+
   return (
     <>
    <div className='main-container'>

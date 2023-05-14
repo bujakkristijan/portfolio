@@ -25,7 +25,7 @@ const ProfileComponent = () => {
   return (
     <div id='profile' className='profile-container'>
         <div className='profile-image-container'>
-            <img className='profile-image' src={require('../../images/profile3bw.png')} alt=''></img>
+            <img className='profile-image' src={require('../../images/profile3edit.png')} alt=''></img>
         </div>
         <div className='profile-text-main-container'>
             <div className='profile-text-container'>

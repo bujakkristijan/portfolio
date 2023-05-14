@@ -10,7 +10,7 @@ const AboutComponent = () => {
         <h1 className='about-title'>About me</h1>
         <div className='about-container'>
             <div className='about-image-container'>
-                <img className='about-image' src={require('../../images/about-pic.png')} alt=''></img>
+                <img className='about-image' src={require('../../images/about-pic-edited.png')} alt=''></img>
             </div>
             <div className='about-details-container'>
                 <div className='details-container'>
@@ -27,14 +27,14 @@ const AboutComponent = () => {
                         <div className='detail-text'>Electrical and Computer Engineer</div>
                         <div className='detail-text'>Technical school Kikinda</div>
                         <br></br>
-                        <div className='detail-text'>Bachelor's degree</div>
+                        <div id='text-degree' className='detail-text'>Bachelor's degree</div>
                         <div className='detail-text'>Software and Information Technologies</div>
                         <div className='detail-text'>Faculty of Technical Sciences</div>
                         <div className='detail-text'>University of Novi Sad</div>
                     </div>
                 </div>
                 <div className='text-details-container'>
-                    I'm recently graduated software developer with Bachelor's degree and no working experience based in Novi Sad, Serbia. In the last time I find myself most comfortable with React library and Java Spring Boot framework for software development. Seeking my first job or an internship opportunity where I'd like to expend my knowledge and be of use to the company. 
+                    I'm recently graduated software developer with Bachelor's degree and no working experience, based in Novi Sad, Serbia. In the last time I find myself most comfortable with React library and Java Spring Boot framework for software development. Seeking my first job or an internship opportunity where I'd like to expend my knowledge and be of use to the company. 
                 </div>
             </div>
         </div>
