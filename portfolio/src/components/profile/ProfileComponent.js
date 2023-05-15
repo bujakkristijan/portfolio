@@ -16,7 +16,7 @@ const ProfileComponent = () => {
     const downloadCV = () =>{
         /* window.open('/cv-file/CV.pdf'); */ /* mora cv u public da stoji */
         /* izmenjen cv */
-        window.open(`${process.env.PUBLIC_URL}/cv-file/KristijanBujakCV.pdf`);
+        window.open(`${process.env.PUBLIC_URL}/cv-file/KristijanBujakCV1.pdf`);
     }
 
     const scrollToProjects = () => {
