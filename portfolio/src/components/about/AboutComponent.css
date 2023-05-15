@@ -95,6 +95,26 @@ If one element has more content and extends its height, the other elements will 
     font-size: 14px;
 }
 
+.bitbucket-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.fa-bitbucket{
+    font-size: 28px;
+    margin-left: 6px;
+}
+
+.fa-bitbucket:hover{
+    cursor: pointer;
+}
+
+.frontent-container, .backend-container{
+    display: flex;
+    /* margin: auto; */
+}
+
 /* mobile apps */
 
 @media(max-width: 900px){
@@ -114,5 +134,13 @@ If one element has more content and extends its height, the other elements will 
     .about-image-container{
         width: 100%;
         height: 100%;
+    }
+    .frontent-container, .backend-container{
+        flex-direction: column;
+        
+        justify-content: left;
+    }
+    .fa-bitbucket{
+        margin: 0; /* zato sto je bio margin-left: 4px za desktop screen size */
     }
 }

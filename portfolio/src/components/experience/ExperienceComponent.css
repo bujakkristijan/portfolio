@@ -17,6 +17,12 @@
     padding-top: 120px; /* stavljeno 120px umesto 80px jer kada stisnem na link i kada skroluje do komponente, ne pocne od pocetka, odnosno ne vidi se title, verovatno zato sto je navbar sticky i zauzima taj prostor, pa sam resio ovako, mada postoji i bolje resenje bez veceg padding verovatno */ 
 }
 
+.experience-sub-title{
+    /* za neke velicine ekrana ce title backend development da bude u jednom redu a frontend development u dva, pa ogranicim width i stavim margin auto da centrira */
+    max-width: 200px;
+    margin: auto;
+}
+
 .experience-details-container{
     display: flex;
     text-align: center;
