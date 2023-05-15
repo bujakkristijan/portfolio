@@ -103,3 +103,15 @@
         padding-right: 10px;
     }
 }
+
+@media(max-width: 440px) and (min-width: 401px){
+     .project-image-container{
+        width: 280px;
+        height: 280px;
+    }
+    .project-info-container{
+        width: 280px; 
+        padding-left: 10px;
+        padding-right: 10px; 
+    } 
+}
