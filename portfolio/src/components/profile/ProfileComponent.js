@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './ProfileComponent.css'
 
 const ProfileComponent = () => {
-     
+    
     const navigateToGithub = () =>{
         window.open("https://github.com/bujakkristijan");
     }
@@ -15,6 +15,7 @@ const ProfileComponent = () => {
 
     const downloadCV = () =>{
         /* window.open('/cv-file/CV.pdf'); */ /* mora cv u public da stoji */
+        /* izmenjen cv */
         window.open(`${process.env.PUBLIC_URL}/cv-file/KristijanBujakCV.pdf`);
     }
 
