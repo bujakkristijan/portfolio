@@ -82,7 +82,7 @@ const ProjectsComponent = () => {
                         Topics Application
                     </div>
                     <div className='project-description'>
-                        Entry task for junior position in one company. Loading topics from json file then manipulating topic font size and color depending on topic metadata. Focus on JavaScript and state managment in React.
+                        Entry task for junior position in one company. Loading topics from JSON file then manipulating topic font size and color depending on topic metadata. Focus on JavaScript and state managment in React.
                     </div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project'onClick={navigateToTopicsApp}>
@@ -101,7 +101,7 @@ const ProjectsComponent = () => {
                         Course Application
                     </div>
                     <div className='project-description'>
-                        Small responsive course project implemented using ReactJS library with focus on styling in CSS. Logical problems and functionality in this project aren't implemented.                    </div>
+                        Small responsive course project implemented using ReactJS library with focus on CSS styling. Logical problems and functionality in this project aren't implemented.                    </div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project' onClick={navigateToCourseApp}>
                         Github source code
@@ -137,7 +137,7 @@ const ProjectsComponent = () => {
                         Portfolio Application
                     </div>
                     <div className='project-description'>
-                        This is my responsive portfolio website that you are currently browsing! You can download my CV, find out more info about me or send me an email via contact form. (ReactJS with focus on styling in CSS.) </div>
+                        This is my responsive portfolio website that you are currently browsing! You can download my CV, find out more info about me or send me an email via contact form. (ReactJS with focus on CSS styling.) </div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project' onClick={navigateToPortfolioApp}>
                         Github source code

@@ -58,7 +58,11 @@ const AboutComponent = () => {
                     </div>
                 </div>
                 <div className='text-details-container'>
-                    I'm recently graduated software developer with Bachelor's degree and no working experience, based in Novi Sad, Serbia. In the last time I find myself most comfortable with React library and Java Spring Boot framework for software development. Seeking my first job or an internship opportunity where I'd like to expend my knowledge and be of use to the company. 
+                    I'm recently graduated software developer with a Bachelor's degree, based in Novi
+                    Sad, Serbia. Over the past year, I have found myself most comfortable working
+                    with React (Hooks) library and Java Spring Boot framework for software
+                    development. Seeking my first job or an internship opportunity where I'd like to
+                    expand my knowledge and be of use to the company.                 
                 </div>
             </div>
         </div>
