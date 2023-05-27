@@ -82,7 +82,9 @@ const ProjectsComponent = () => {
                         Topics Application
                     </div>
                     <div className='project-description'>
-                        Entry task for junior position in one company. Loading topics from JSON file then manipulating topic font size and color depending on topic metadata. Focus on JavaScript and state managment in React.
+                        This is an entry task for a junior position at a certain company. The task
+                        involves loading topics from a JSON file and manipulating the font size and
+                        color of each topic based on its metadata. Technologies used: JavaScript/React.
                     </div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project'onClick={navigateToTopicsApp}>

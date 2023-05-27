@@ -26,7 +26,7 @@ const NavbarComponent = () => {
   return (
     <>
     <div className='navbar'>
-        <div className='logo'>Kristijan Bujak</div>
+        <div className='logo'>Portfolio</div>
         <div className='nav-links' id="navLinks">
             <FontAwesomeIcon className='x-icon' icon={faX} onClick={hideMenu}/>
             <ul className='nav-ul'>
