@@ -43,8 +43,8 @@ const ProjectsComponent = () => {
                         Food Ordering Application
                     </div>
                     <div className='project-description'>
-                    This is my Bachelor project as a student. Users can view and order food from the restaurant's menu. 
-                    They can track their orders, which status can be updated by employees. 
+                    This is my Bachelor project as a student. Users can order food from the restaurant's menu. 
+                    They can track the status of their orders, which can be updated by employees. 
                     Users add items to the cart and proceed to place their final order.
                     </div>
                     {/* <br></br>  ne treba ovako ali radi ovaj nacin, da dugme bude u istoj liniji sa box-containerom pored */}
