@@ -43,10 +43,9 @@ const ProjectsComponent = () => {
                         Food Ordering Application
                     </div>
                     <div className='project-description'>
-                        The main purpose of the application is to allow users to view the offers and
-                        order food from the restaurant. Users can track the status of their orders,
-                        which can be changed by employees. Users add items to the cart (Redux
-                        store) and then proceed to place their final order.
+                    This is my Bachelor project as a student. Users can view and order food from the restaurant's menu. 
+                    They can track their orders, which status can be updated by employees. 
+                    Users add items to the cart and proceed to place their final order.
                     </div>
                     {/* <br></br>  ne treba ovako ali radi ovaj nacin, da dugme bude u istoj liniji sa box-containerom pored */}
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
