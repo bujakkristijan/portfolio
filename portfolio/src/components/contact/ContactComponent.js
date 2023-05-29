@@ -18,6 +18,9 @@ const ContactComponent = () => {
             || email.trim() === '' || message.trim() === ''){
                 alertFail();
             }
+        else if (validateEmail() == false){
+            alertInvalidEmail();
+        }
         else{
             emailjs.send('service_7pzrivs', 'template_4a0ren5', {
                 first_name: firstName,
@@ -59,6 +62,20 @@ const ContactComponent = () => {
             text: 'All input fields are required!',
           })
       }
+
+      const alertInvalidEmail = () =>{
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Invalid email. Try again!',
+          })
+      }
+
+      const validateEmail = () => {
+        //treba bez ''
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+      };
 
   return (
     <div id='contact' className='contact-main-container'>
