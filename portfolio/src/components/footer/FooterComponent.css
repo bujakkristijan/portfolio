@@ -21,10 +21,10 @@
 }
 
 .text-footer{
-    margin-top: 6px;
+    margin-top: 10px;
     text-align: center;
     color: grey;
-    padding-bottom: 12px;
+    padding-bottom: 14px;
 }
 
 @media(max-width: 900px){
