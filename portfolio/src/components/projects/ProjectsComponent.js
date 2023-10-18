@@ -28,6 +28,9 @@ const ProjectsComponent = () => {
     const navigateToPortfolioApp = () =>{
         window.open("https://github.com/bujakkristijan/portfolio");
     }
+    const navigateToInternFigmaApp = () =>{
+        window.open("https://github.com/bujakkristijan/internship-studio-present-react");
+    }
 
   return (
     <div id='projects' className='projects-main-container'>
@@ -98,16 +101,17 @@ const ProjectsComponent = () => {
 
             <div className='project-box-container'>
                 <div className='project-image-container'>
-                    <img className='project-image' src={require('../../images/courseapp.png')} alt=''></img>
+                    <img className='project-image' src={require('../../images/intern.png')} alt=''></img>
                 </div>
                 <div className='project-info-container'>
                     <div className='project-title'>
-                        Course Application
+                        Figma to React App
                     </div>
                     <div className='project-description'>
-                        Small responsive course project implemented using ReactJS library with focus on CSS styling. Logical problems and functionality in this project aren't implemented.                    </div>
+                    Design from Figma has been transformed into a fully responsive web application with necessary functionalities.
+                    Features: Image slider, Hamburger menu, Dark/Light mode, Popup message, and more.</div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
-                    <div className='btn-project' onClick={navigateToCourseApp}>
+                    <div className='btn-project' onClick={navigateToInternFigmaApp}>
                         Github source code
                         <FontAwesomeIcon className='btn-github-icon' icon={faGithub}/>
                     </div>
