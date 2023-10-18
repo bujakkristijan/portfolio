@@ -11,8 +11,8 @@
     position: sticky; /* kad je fixed poremeti se malo, about komponenta pocinje pre nego sto treba */
     top: 0;
     width: 100%; 
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .nav-ul{
@@ -49,6 +49,7 @@ a:hover::after{
 .logo{
     font-size: 2rem;
     color: var(--first-text-color);
+    /* margin-left: 10px; */
 }
 
 .logo:hover{
@@ -146,7 +147,7 @@ a:hover::after{
     .x-icon, .bars-icon{
         display: block; /* da se pojave, jer su none za velike ekrane*/
         color: var(--icon-color);
-        margin: 10px;
+        /* margin: 10px; */
         font-size: 30px;
         cursor: pointer;
     }
