@@ -3,7 +3,7 @@
     /* display: flex;
     flex-direction: column;
     align-items: center; */
-    background-color: rgb(242, 241, 241);
+    /* background-color: rgb(242, 241, 241); */
     /* padding-bottom: 100px; */
     padding-top: 120px;
 }
@@ -30,7 +30,7 @@
     /* prvo se na kontejner stavi height i width pa onda se stavi ovde da uzima maksimum od njega */
     width: 100%;
     height: 100%;
-    /* object-fit: contain; */
+    object-fit: cover;
     border-radius: 40px;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
@@ -48,20 +48,47 @@
 .details-container{
     display: flex;
     gap: 2rem;
+    justify-content: center;
 }
 
 .detail-title{
     font-size: 22px;
     font-weight: 600;
+    color: var(--first-text-color);
 }
 
 .detail-text{
     font-size: 16px;
+    color: var(--second-text-color);
 }
 
 #text-degree{
     font-weight: 600;
+    color: var(--first-text-color);
 }
+
+.intern-gh-container{
+    display: flex;
+    gap: 12px;
+    font-weight: 500;
+    color: var(--first-text-color);
+    justify-content: center;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.github-intern-icon{
+    font-size: 30px;
+    /* margin: auto; */
+    cursor: pointer;
+}
+
+.text-title-experience{
+    color: var(--first-text-color);
+    font-size: 22px;
+    font-weight: 500;
+}
+
 /*
 
 Chat gpt odgovor, kod flex items-a, svi prate visinu najveceg ukoliko nije zadata
@@ -72,33 +99,42 @@ If one element has more content and extends its height, the other elements will 
 */
 
 .detail-container{
-    border: 2px solid black;
+    border: 2px solid var(--box-border-color);
     border-radius: 20px;
     padding: 1.5rem;
-    flex: 1; /* da budu jednaki oba !! */
+    width: 360px;
+    /* flex: 1;  */
+    /* da budu jednaki oba !! */
     text-align: center;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
-    background-color: white; 
+    background-color: var(--box-background-color);
 }
 
 .about-details-container{
     /* justify-content: center; */
-    width: 65%;  
+    /* width: 65%;   */
 }
 
 .fa-icon{
     font-size: 30px;
+    color: var(--icon-color);
 }
 
 .text-details-container{
-    margin-top: 30px;
+    margin-top: 38px;
     font-size: 15px;
+    color: var(--first-text-color);
 }
 
 .bitbucket-container{
     display: flex;
     justify-content: space-around;
     margin-top: 8px;
+}
+
+.frontent-container, .backend-container{
+    color: var(--icon-color);
+    font-weight: 500;
 }
 
 .fa-bitbucket{
@@ -116,6 +152,13 @@ If one element has more content and extends its height, the other elements will 
 }
 
 /* mobile apps */
+@media(max-width: 1200px){
+    .details-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+}
 
 @media(max-width: 900px){
     .about-container{
@@ -128,8 +171,9 @@ If one element has more content and extends its height, the other elements will 
         width: 100%;
     }
     .details-container{
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
+        /* justify-content: center; */
     }
     .about-image-container{
         width: 100%;

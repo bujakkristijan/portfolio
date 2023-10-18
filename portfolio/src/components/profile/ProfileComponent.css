@@ -6,7 +6,7 @@
     align-items: center;
     text-align: center;
     /* background-color: rgb(237, 237, 237); */
-    background-color: rgb(242, 241, 241);
+    /* background-color: rgb(242, 241, 241); */
 }
 
 .profile-image-container{
@@ -30,6 +30,7 @@
 .title{
     font-size: 34px;
     margin-top: 20px;
+    color: var(--first-text-color);
 }
 
 .text-p2{
@@ -110,6 +111,7 @@
 
 .github-icon, .linkedin-icon{
     font-size: 40px;
+    color: var(--icon-color);
 }
 
 .github-icon:hover, .linkedin-icon:hover{

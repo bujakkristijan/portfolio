@@ -7,11 +7,16 @@
     font-size: 40px;
     text-align: center;
     font-weight: 600;
+    color: var(--first-text-color);
+}
+
+.contact-text{
+    color: var(--first-text-color);
 }
 
 .contact-main-container{
     padding-top: 120px; /* moze i margina na iznad komponentu sto je, ili padding da nema belu boju za pozadinu */
-    background-color: rgb(242, 241, 241);
+    /* background-color: rgb(242, 241, 241); */
     padding-bottom: 120px;
 }
 
@@ -20,10 +25,10 @@
     /* text-align: center; */
     padding: 20px;
     border-radius: 30px;
-    border: 2px solid rgb(53, 53, 53);
+    border: 2px solid var(--box-border-color);
     width: 600px;
     margin: auto;
-    background-color: white;
+    background-color: var(--box-background-color);
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -43,9 +48,10 @@ input{
     width: 80%;
     margin: auto;
     margin-top: 8px;
-    border: 2px solid rgb(53, 53, 53);
-    background-color: rgb(242, 241, 241);
+    border: 2px solid var(--box-border-color);
+    background-color: var(--input-color);
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
+    color: var(--first-text-color);
 }
 
 .name-container{
@@ -93,13 +99,18 @@ input{
     padding: 8px;
     border-radius: 10px;
     margin-top: 8px;
-    border: 2px solid rgb(53, 53, 53);
-    background-color: rgb(242, 241, 241);
+    border: 2px solid var(--box-border-color);
+    background-color: var(--input-color);
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .label-message{
     text-align: left;
+    
+}
+
+.label-message, .label-name, .label-last-name, .label-email, .btn-send-email{
+    color: var(--first-text-color);
 }
 
 .contact-text{
@@ -117,13 +128,13 @@ input{
 }
 
 .btn-send-email{
-    color: black;
-    background-color: rgb(242, 241, 241);
+    /* color: black; */
+    background-color: var(--input-color);
     /*gore desno dole levo */
     padding: 10px 15px 10px 15px; 
     font-weight: 600;
     border-radius: 20px;
-    border: 2px solid rgb(21, 21, 21);
+    border: 2px solid var(--box-border-color);
     width: 160px;
     margin: auto; /* da centrira dugme */
     display: flex; 

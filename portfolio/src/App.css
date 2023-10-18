@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-p{
+/* p{
   color: rgb(85, 85, 85);
-}
+} */
 /* Transition */
 a, .btn{
   transition: all 300ms ease;

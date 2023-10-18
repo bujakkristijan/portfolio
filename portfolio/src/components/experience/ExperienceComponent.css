@@ -12,7 +12,7 @@
 .experience-main-container{
     display: flex;
     flex-direction: column;
-    background-color: rgb(242, 241, 241);
+    /* background-color: rgb(242, 241, 241); */
     /* margin-top: 60px; */ /* da ne bi bila bela pozadina stavljam padding */
     padding-top: 120px; /* stavljeno 120px umesto 80px jer kada stisnem na link i kada skroluje do komponente, ne pocne od pocetka, odnosno ne vidi se title, verovatno zato sto je navbar sticky i zauzima taj prostor, pa sam resio ovako, mada postoji i bolje resenje bez veceg padding verovatno */ 
 }
@@ -44,6 +44,7 @@
     font-weight: 600;
     font-size: 18px;
     text-align: left;
+    color: var(--first-text-color);
     /* max-width: 200px; */ /* nzm kako kada je kontent veci malo da ga ispisuje i dalje u istoj liniji umesto da se prelomi u novi, proveriti posle !!! */
 }
 
@@ -60,10 +61,10 @@
 }
 
 .details-containers{
-    border: 2px solid rgb(53, 53, 53);
+    border: 2px solid var(--box-border-color);
     border-radius: 20px;
     padding: 25px;
-    background-color: white;
+    background-color: var(--box-background-color);
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 
