@@ -52,7 +52,7 @@ const AboutComponent = () => {
                         <div className='detail-title'>Student internsip</div>
                         <div className='detail-text'>Software developer</div>
                         <div className='detail-text'>Simple Task LLC, Novi Sad</div>
-                        <div className='detail-text'>April 2022, one month </div>
+                        <div className='detail-text'>April 2022 - one month </div>
                         <br></br>
                         <div className='detail-text'>Food ordering application from scratch using Spring Boot and Angular frameworks with two teammates</div>
                         <div className='bitbucket-container'>
