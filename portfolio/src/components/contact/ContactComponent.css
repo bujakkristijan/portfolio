@@ -102,6 +102,7 @@ input{
     border: 2px solid var(--box-border-color);
     background-color: var(--input-color);
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
+    color: var(--first-text-color);
 }
 
 .label-message{

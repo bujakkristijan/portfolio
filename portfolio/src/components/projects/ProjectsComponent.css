@@ -69,7 +69,7 @@
     padding: 10px 15px 10px 15px; 
     font-weight: 600;
     border-radius: 20px;
-    border: 2px solid rgb(21, 21, 21);
+    border: 2px solid var(--box-border-color);
     width: 230px;
     margin: auto; /* da centrira dugme */
     display: flex; 
