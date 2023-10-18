@@ -82,7 +82,8 @@ const AboutComponent = () => {
                     </div>
                 </div>
                 <div className='text-details-container'>
-                    <div className='text-title-experience'>Internship - Studio Present, Subotica -  18/09/2023 - 29/09/2023</div>
+                    <div className='text-title-experience'>Internship - Studio Present, Subotica</div>
+                    <div className='text-title-experience'>18/09/2023 - 29/09/2023</div>
                     <br></br>
                     I transformed a design from Figma and completed tasks from Trello, which included necessary functionalities
                     for the website, as part of a two-week internship program.
@@ -97,7 +98,8 @@ const AboutComponent = () => {
 
                 </div>
                 <div className='text-details-container'>
-                    <div className='text-title-experience'>Student Internship - Simple Task LLC, Novi Sad - April 2022</div>
+                    <div className='text-title-experience'>Student Internship - Simple Task LLC, Novi Sad</div>
+                    <div className='text-title-experience'>April 2022</div>
                     <br></br>
                     I was part of a team with two other teammates during a one-month student internship program.
                     We developed a food ordering application from scratch using Java Spring Boot and Angular frameworks.
