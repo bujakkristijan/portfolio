@@ -61,8 +61,8 @@ const NavbarComponent = () => {
             <FontAwesomeIcon className='x-icon' icon={faX} onClick={hideMenu}/>
             <ul className='nav-ul'>
                 {/* <li><a href='#about' onClick = {() => scrollToComponent('about')}>About</a></li> */}
-                <li><a href='#about' onClick={hideMenu} >About</a></li>
-                <li><a href='#experience' onClick={hideMenu} >Experience</a></li>
+                <li><a href='#about' onClick={hideMenu} >Experience</a></li>
+                <li><a href='#experience' onClick={hideMenu} >Skills</a></li>
                 {/* <li><a href='#projects' onClick = {() => scrollToComponent('projects')}>Projects</a></li> */}
                 <li><a href='#projects' onClick={hideMenu} >Projects</a></li>
                 <li><a href='#contact' onClick={hideMenu} >Contact</a></li>
