@@ -49,7 +49,7 @@ const AboutComponent = () => {
 
                     <div className='detail-container'>
                         <FontAwesomeIcon className='fa-icon' icon={faBriefcase} />
-                        <div className='detail-title'>Student internsip</div>
+                        <div className='detail-title'>Student internship</div>
                         <div className='detail-text'>Software developer</div>
                         <div className='detail-text'>Simple Task LLC, Novi Sad</div>
                         <div className='detail-text'>April 2022 - one month </div>

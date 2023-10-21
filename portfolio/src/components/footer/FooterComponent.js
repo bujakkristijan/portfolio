@@ -17,8 +17,8 @@ const FooterComponent = () => {
     <div className='footer-main-container'>
         <ul className='nav-ul'>
                 {/* <li><a href='#about' onClick = {() => scrollToComponent('about')}>About</a></li> */}
-                <li><a href='#about'>About</a></li>
-                <li><a href='#experience'>Experience</a></li>
+                <li><a href='#about'>Experience</a></li>
+                <li><a href='#experience'>Skills</a></li>
                 {/* <li><a href='#projects' onClick = {() => scrollToComponent('projects')}>Projects</a></li> */}
                 <li><a href='#projects'>Projects</a></li>
                 <li><a href='#contact'>Contact</a></li>
