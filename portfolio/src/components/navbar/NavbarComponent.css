@@ -130,6 +130,8 @@ a:hover::after{
     }
     li{
         margin-top: 25px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .nav-links{
         /* kad je position: fixed, ne mora cak ni overflow-x: hidden na main-container, nestane skrol i bez toga */
