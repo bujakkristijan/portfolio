@@ -70,9 +70,10 @@
     font-weight: 600;
     border-radius: 20px;
     border: 2px solid var(--box-border-color);
-    width: 230px;
+    width: fit-content;
     margin: auto; /* da centrira dugme */
     display: flex; 
+    gap: 8px;
     margin-bottom: 30px;
 }
 
@@ -82,7 +83,6 @@
 
 .btn-github-icon{
     font-size: 24px;
-    margin: auto; /* radi dobro samo sa display flex !!! jer flex ima po defaultu width */
 }
 
 .projects-container{

@@ -39,7 +39,7 @@ const ProjectsComponent = () => {
         <div className='projects-container'>
             <div className='project-box-container'>
                 <div className='project-image-container'>
-                    <img className='project-image' src={require('../../images/foapp.png')} alt=''></img>
+                    <img className='project-image' src={require('../../images/foappnew.png')} alt=''></img>
                 </div>
                 <div className='project-info-container'>
                     <div className='project-title'>

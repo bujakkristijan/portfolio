@@ -136,9 +136,10 @@ input{
     font-weight: 600;
     border-radius: 20px;
     border: 2px solid var(--box-border-color);
-    width: 160px;
+    width: fit-content;
     margin: auto; /* da centrira dugme */
     display: flex; 
+    gap: 8px;
     /* margin-bottom: 30px; */
 }
 
