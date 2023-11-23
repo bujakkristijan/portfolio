@@ -139,13 +139,16 @@ input{
     width: fit-content;
     margin: auto; /* da centrira dugme */
     display: flex; 
+    align-items: center;
+    justify-content: center;
     gap: 8px;
     /* margin-bottom: 30px; */
 }
 
 .icon-email{
-    margin: auto;
+    font-size: 18px;
 }
+
 
 @media(max-width: 900px){
     .name-container{

@@ -121,7 +121,7 @@ If one element has more content and extends its height, the other elements will 
 }
 
 .text-details-container{
-    margin-top: 38px;
+    margin-top: 60px;
     font-size: 15px;
     color: var(--first-text-color);
 }
