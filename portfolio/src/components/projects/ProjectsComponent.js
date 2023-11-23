@@ -21,6 +21,10 @@ const ProjectsComponent = () => {
         window.open("https://github.com/bujakkristijan/challenge");
     }
 
+    const navigateToSCEntryTask = () =>{
+        window.open("https://github.com/bujakkristijan/sc-entry-task");
+    }
+
     const navigateToGroceryApp = () =>{
         window.open("https://github.com/bujakkristijan/codetribetest");
     }
@@ -58,7 +62,7 @@ const ProjectsComponent = () => {
                     </div>
                 </div> 
             </div>
-
+{/* 
             <div className='project-box-container'>
                 <div className='project-image-container'>
                     <img className='project-image' src={require('../../images/cinemaapp.png')} alt=''></img>
@@ -70,8 +74,27 @@ const ProjectsComponent = () => {
                     <div className='project-description'>
                     Responsive cinema application that allows users to see movie projections by selected day. Registered users can reserve a ticket by selecting available seat (row and column) in the hall where the movie projection is being shown.
                     </div>
-                    {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project' onClick={navigateToCinemaApp}>
+                        Github source code
+                        <FontAwesomeIcon className='btn-github-icon' icon={faGithub}/>
+                    </div>
+                </div> 
+            </div> */}
+
+           
+            <div className='project-box-container'>
+                <div className='project-image-container'>
+                    <img className='project-image' src={require('../../images/intern.png')} alt=''></img>
+                </div>
+                <div className='project-info-container'>
+                    <div className='project-title'>
+                        Figma to React App
+                    </div>
+                    <div className='project-description'>
+                    Design from Figma has been transformed into a fully responsive web application with necessary functionalities.
+                    Features: Image slider, Hamburger menu, Dark/Light mode, Popup message, and more.</div>
+                    {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
+                    <div className='btn-project' onClick={navigateToInternFigmaApp}>
                         Github source code
                         <FontAwesomeIcon className='btn-github-icon' icon={faGithub}/>
                     </div>
@@ -101,35 +124,16 @@ const ProjectsComponent = () => {
 
             <div className='project-box-container'>
                 <div className='project-image-container'>
-                    <img className='project-image' src={require('../../images/intern.png')} alt=''></img>
+                    <img className='project-image' src={require('../../images/sc-entry-task.png')} alt=''></img>
                 </div>
                 <div className='project-info-container'>
                     <div className='project-title'>
-                        Figma to React App
+                        Figma to JS App
                     </div>
                     <div className='project-description'>
-                    Design from Figma has been transformed into a fully responsive web application with necessary functionalities.
-                    Features: Image slider, Hamburger menu, Dark/Light mode, Popup message, and more.</div>
+                        Design from Figma has been transformed into fully responsive web application with 48 hours limit to implement it as entry task at certain company. Technologies: HTML/SCSS(Gulp), JavaScript </div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
-                    <div className='btn-project' onClick={navigateToInternFigmaApp}>
-                        Github source code
-                        <FontAwesomeIcon className='btn-github-icon' icon={faGithub}/>
-                    </div>
-                </div> 
-            </div>
-
-            <div className='project-box-container'>
-                <div className='project-image-container'>
-                    <img className='project-image' src={require('../../images/groceryapp.png')} alt=''></img>
-                </div>
-                <div className='project-info-container'>
-                    <div className='project-title'>
-                        Grocery List Application
-                    </div>
-                    <div className='project-description'>
-                        Grocery list that accepts an item and also saves it in local storage. Focus is on solving logical problems from specification using JavaScript and ReactJS library. </div>
-                    {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
-                    <div className='btn-project' onClick={navigateToGroceryApp}>
+                    <div className='btn-project' onClick={navigateToSCEntryTask}>
                         Github source code
                         <FontAwesomeIcon className='btn-github-icon' icon={faGithub}/>
                     </div>
