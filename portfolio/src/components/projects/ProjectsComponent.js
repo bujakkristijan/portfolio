@@ -91,7 +91,7 @@ const ProjectsComponent = () => {
                         Figma to React App
                     </div>
                     <div className='project-description'>
-                    Design from Figma has been transformed into a fully responsive web application with necessary functionalities.
+                    Internship project at Studio Present. Design from Figma has been transformed into a fully responsive web application with necessary functionalities.
                     Features: Image slider, Hamburger menu, Dark/Light mode, Popup message, and more.</div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project' onClick={navigateToInternFigmaApp}>
@@ -131,7 +131,7 @@ const ProjectsComponent = () => {
                         Figma to JS App
                     </div>
                     <div className='project-description'>
-                        Design from Figma has been transformed into fully responsive web application with 48 hours limit to implement it as entry task at certain company. Technologies: HTML/SCSS(Gulp), JavaScript </div>
+                        Design from Figma has been transformed into fully responsive web application with 48 hours limit to implement it as an entry task at certain company. Technologies: HTML/SCSS(Gulp), JavaScript </div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project' onClick={navigateToSCEntryTask}>
                         Github source code
