@@ -104,11 +104,11 @@
 }
 
 @media(max-width: 900px){
-    .project-image-container{
+    /* .project-image-container{
         height: 260px;
-    }
-    /* .projects-container{
+    } */
+    .projects-container{
         padding-left: 6%;
         padding-right: 6%;
-    } */
+    }
 }
