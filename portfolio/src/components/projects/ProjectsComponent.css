@@ -11,8 +11,8 @@
 }
 
 .project-image-container{
-    height: 300px;
-    width: 300px;
+    width: 85%;
+    height: 280px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -56,10 +56,11 @@
 
 
 .project-info-container{
-    width: 300px;
+    
     /* padding-left: 20px;
     padding-right: 20px; */
     margin: auto;
+    width: 85%;
 }
 
 .btn-project{
@@ -99,28 +100,4 @@
 .projects-main-container{
     /* background-color: rgb(242, 241, 241); */
     padding-top: 120px;
-}
-
-@media(max-width: 400px){
-    .project-image-container{
-        width: 260px;
-        height: 260px;
-    }
-    .project-info-container{
-        /* width: 280px; */
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
-
-@media(max-width: 440px) and (min-width: 401px){
-     .project-image-container{
-        width: 280px;
-        height: 280px;
-    }
-    .project-info-container{
-        width: 280px; 
-        padding-left: 10px;
-        padding-right: 10px; 
-    } 
 }
