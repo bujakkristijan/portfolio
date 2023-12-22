@@ -35,6 +35,9 @@ const ProjectsComponent = () => {
     const navigateToInternFigmaApp = () =>{
         window.open("https://github.com/bujakkristijan/internship-studio-present-react");
     }
+    const navigateToPharmacyApp = () =>{
+        window.open("https://github.com/bujakkristijan/pharmacy-app");
+    }
 
   return (
     <div id='projects' className='projects-main-container'>
@@ -152,6 +155,24 @@ const ProjectsComponent = () => {
                         This is my responsive portfolio website that you are currently browsing! You can download my CV, find out more info about me or send me an email via contact form. (ReactJS with focus on CSS styling.) </div>
                     {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
                     <div className='btn-project' onClick={navigateToPortfolioApp}>
+                        Github source code
+                        <FontAwesomeIcon className='btn-github-icon' icon={faGithub}/>
+                    </div>
+                </div> 
+            </div>
+
+            <div className='project-box-container'>
+                <div className='project-image-container'>
+                    <img className='project-image' src={require('../../images/pharmacyapp.png')} alt=''></img>
+                </div>
+                <div className='project-info-container'>
+                    <div className='project-title'>
+                        Pharmacy Application
+                    </div>
+                    <div className='project-description'>
+                        Application is used for maintenance of pharmacy products. Project is implemented using ReactJS(Hooks) library, along with additional libraries such as Bootstrap and SweetAlert2.</div>
+                    {/* stavio sam div umesto button jer na button ne radi margin: auto da centrira dugme */}
+                    <div className='btn-project' onClick={navigateToPharmacyApp}>
                         Github source code
                         <FontAwesomeIcon className='btn-github-icon' icon={faGithub}/>
                     </div>
